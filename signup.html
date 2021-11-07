@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>sign up</title>
+</head>
+<body>
+    <div class="container px-5 ">
+        <div class="px-5">
+            <div class="div-bg m-5 p-5 div-sh">
+                <h1 class="text-center py-2">Smart Login System</h1>
+                <input class="form-control div-bg my-3" id="uname" placeholder="Enter your name" type="text" >
+                <div id="alertname" class="alert d-none" role="alert">
+                    <p class="pinput">include at least 3 letters</p>
+                </div>
+                <input class="form-control div-bg my-3" id="email" placeholder="Enter your email" type="email" >
+                <div id="alertemail" class="alert d-none" role="alert">
+                    <p class="pinput">doha@example.com</p>
+                </div>
+                <input class="form-control div-bg my-3" id="password" placeholder="Enter password" type="password" >
+                <div id="alertpass" class="alert d-none" role="alert">
+                    <p class="pinput">you must strenth your password:<br>- 8 to 15 characters<br>- include at least symbol and capitale letter</p>
+                </div>
+                <div id="alertForm" class="alert  d-none" role="alert">
+                    <p id="allrequired" >All inputs is required</p>
+                    <p class="text-center d-none" id="MsgExist"> this account is exist ! Try another one.</p>
+
+                </div>
+                <button class="btn btn-outline-info form-control my-4" onclick="btnsign();">Sign Up</button>
+                
+                <p class="text-center">You have an account? <a href="login.html">Sign in</a></p>
+
+               
+    
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"> </script>
+</body>
+</html>

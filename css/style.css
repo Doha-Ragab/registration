@@ -1,0 +1,54 @@
+*{
+    font-family:  sans-serif;
+}
+body{
+    background-color: #24353f;
+}
+.div-bg{
+    background-color: #24353f;
+}
+.div-sh{
+    
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 54px 55px, rgba(0, 0, 0, 0.5) 0px -12px 30px, rgba(0, 0, 0, 0.5) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+h1{
+    color: #17a2b8;
+    font-size: 40px;
+    line-height: 1.2;
+}
+.form-control{
+    color: #fff !important;
+}
+.form-control:focus{
+    border-color:#17a2b8 ;
+    background-color:#24353f;
+    box-shadow: none;
+
+}
+p,a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.alert p{
+    color:#dc3545;
+    text-align: center;
+   
+}
+#alertForm{
+    margin-bottom: -2rem !important;
+}
+#btnsign:hover{
+background-color: #17a2b8;
+}
+#alertemail ,#alertpass ,#alertname, #alertlogin{
+    margin-bottom: -1.5rem !important;
+    padding:0px;
+}
+.pinput{
+    font-size: 12px !important;
+    text-align: start !important;
+}
